@@ -1,4 +1,4 @@
-# 🦁Sheru - Advik's AI Assistant
+# 🦙 Advik's AI Assistant
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-UI-orange)](https://streamlit.io)
