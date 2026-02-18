@@ -59,4 +59,12 @@ Response
 	•	Persistent ChromaDB ensures documents are remembered
 	•	Delete unwanted documents anytime via the sidebar
 	•	Clear the chat with the “🗑 Clear Chat” button
+	
 
+🛠 Tech Stack
+	•	Python 3.11+
+	•	Streamlit￼ — Frontend UI
+	•	ChromaDB￼ — Persistent vector DB
+	•	Llama 3.1￼ — Local large language model
+	•	Sentence Transformers￼ — Text embeddings
+	•	pypdf￼ — PDF text extraction
