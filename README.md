@@ -1,2 +1,68 @@
-# pdf_chatbot
-In this project, I created a chatbot to analyze pdf's and use the context to provide data
+# 🦙 Advik's AI Assistant
+
+[![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-UI-orange)](https://streamlit.io)
+
+> A local AI chatbot powered by **Llama 3.1 8B** and **ChromaDB**, with streaming responses, persistent RAG, and a sleek dark UI.
+
+---
+
+## 💡 Features
+
+- 🌙 Permanent Dark Mode UI  
+- 📂 Sidebar PDF upload & file management  
+- 💬 Chat history  
+- 🧠 Contextual **RAG** with persistent Chroma vector DB  
+- 🗑️ Delete & clear documents  
+- 🖥️ Fully fixed **sticky header**  
+
+---
+
+## 📸 Screenshots
+
+**Chat Interface**
+
+![Chat View](assets/screenshot1.png)  
+*Chat with Llama 3.1, streaming responses and sticky header.*
+
+**File Upload & Management**
+
+![File Upload](assets/screenshot2.png)  
+*Upload PDFs, view files, and delete unwanted documents.*
+
+**Demo GIF (Optional)**
+
+![Demo](assets/demo.gif)  
+*Interactive chat demo showcasing RAG and streaming responses.*
+
+---
+
+## 🏗 Architecture Diagram
++———+      +———–+      +––––––––+
+|  User   | —> | Streamlit | —> |  ChromaDB DB   |
++———+      +———–+      +––––––––+
+|
+v
++———–+
+| Llama3.1 |
++———–+
+|
+v
+Response
+
+🧩 Usage
+	•	Upload PDFs via the sidebar
+	•	Ask questions in the chat input
+	•	Responses are generated using Llama 3.1 with contextual knowledge from your uploaded documents
+	•	Persistent ChromaDB ensures documents are remembered
+	•	Delete unwanted documents anytime via the sidebar
+	•	Clear the chat with the “🗑 Clear Chat” button
+	
+
+🛠 Tech Stack
+	•	Python 3.11+
+	•	Streamlit￼ — Frontend UI
+	•	ChromaDB￼ — Persistent vector DB
+	•	Llama 3.1￼ — Local large language model
+	•	Sentence Transformers￼ — Text embeddings
+	•	pypdf￼ — PDF text extraction
