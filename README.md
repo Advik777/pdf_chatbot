@@ -11,12 +11,11 @@
 ## 💡 Features
 
 - 🌙 Permanent Dark Mode UI  
-- 📂 Fixed sidebar PDF upload & file management  
-- 💬 Chat history with **streaming typing effect**  
+- 📂 Sidebar PDF upload & file management  
+- 💬 Chat history  
 - 🧠 Contextual **RAG** with persistent Chroma vector DB  
 - 🗑️ Delete & clear documents  
 - 🖥️ Fully fixed **sticky header**  
-- ⚡ Clean, SaaS-style layout
 
 ---
 
