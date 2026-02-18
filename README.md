@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.11-blue)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-UI-orange)](https://streamlit.io)
-[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 > A local AI chatbot powered by **Llama 3.1 8B** and **ChromaDB**, with streaming responses, persistent RAG, and a sleek dark UI.
 
