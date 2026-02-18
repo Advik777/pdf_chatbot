@@ -40,3 +40,23 @@
 ---
 
 ## 🏗 Architecture Diagram
++———+      +———–+      +––––––––+
+|  User   | —> | Streamlit | —> |  ChromaDB DB   |
++———+      +———–+      +––––––––+
+|
+v
++———–+
+| Llama3.1 |
++———–+
+|
+v
+Response
+
+🧩 Usage
+	•	Upload PDFs via the sidebar
+	•	Ask questions in the chat input
+	•	Responses are generated using Llama 3.1 with contextual knowledge from your uploaded documents
+	•	Persistent ChromaDB ensures documents are remembered
+	•	Delete unwanted documents anytime via the sidebar
+	•	Clear the chat with the “🗑 Clear Chat” button
+
